@@ -1,0 +1,89 @@
+/* styles.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #2e3a45, #3b4a57);
+    color: #ecf0f1;
+  }
+  
+  .App {
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: #37474f;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .App-header {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ecf0f1;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+  }
+  
+  .board {
+    display: inline-block;
+  }
+  
+  .board-row {
+    display: flex;
+  }
+  
+  .square {
+    background: #546e7a;
+    border: 2px solid #455a64;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 100px;
+    height: 100px;
+    width: 100px;
+    margin: -2px;
+    text-align: center;
+    color: #ecf0f1;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+  
+  .square:hover {
+    background: #607d8b;
+    transform: scale(1.05);
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+  
+  .status {
+    margin-top: 20px;
+    font-size: 24px;
+    background: #455a64;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #ecf0f1;
+  }
+  
+  .restart-button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .restart-button:hover {
+    background-color: #2980b9;
+  }
+  
