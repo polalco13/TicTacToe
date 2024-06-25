@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styles from './styles.css';
+import { Analytics } from "@vercel/analytics/react"
 
 
 function App() {
@@ -53,6 +54,7 @@ function App() {
 
   return (
     <div className="App">
+      <Analytics />
       <header className="App-header">
         <h1>Tic Tac Toe</h1>
       </header>
